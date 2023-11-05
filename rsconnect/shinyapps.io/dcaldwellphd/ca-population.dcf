@@ -1,0 +1,10 @@
+name: ca-population
+title:
+username: dcaldwellphd
+account: dcaldwellphd
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10423268
+bundleId: 7892266
+url: https://dcaldwellphd.shinyapps.io/ca-population/
+version: 1

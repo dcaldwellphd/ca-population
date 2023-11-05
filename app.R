@@ -21,8 +21,8 @@ ui <- fluidPage(
           floor(min(pop_data$population)), 
           ceiling(max(pop_data$population))
           ),
-        min = floor(min(pop_data$population)),
-        max = ceiling(max(pop_data$population))
+        min = 0,
+        max = 45
         ),
       # Slider controling range of years
       sliderInput(
