@@ -1,0 +1,8 @@
+library(rsconnect)
+# Path to the app folder
+folder_path <- "C:/Users/DCaldwell/Dropbox/jcc/workload/ca-population/"
+# Run app locally
+shiny::runApp(folder_path)
+# Deploy to rsconnect server
+rsconnect::deployApp(folder_path)
+
