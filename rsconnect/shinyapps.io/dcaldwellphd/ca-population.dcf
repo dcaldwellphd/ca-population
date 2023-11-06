@@ -5,6 +5,6 @@ account: dcaldwellphd
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 10423268
-bundleId: 7892274
+bundleId: 7896636
 url: https://dcaldwellphd.shinyapps.io/ca-population/
 version: 1
