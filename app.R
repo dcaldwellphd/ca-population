@@ -29,8 +29,8 @@ ui <- fluidPage(
         inputId = "year_range",
         label = "Date range",
         value = c(2020, 2040),
-        min = 2020,
-        max = 2060,
+        min = min(pop_data$year),
+        max = max(pop_data$year),
         sep = ""
       ),
       # Checkbox for fitlering groups from population
@@ -97,7 +97,7 @@ server <- function(input, output) {
   # Plot, subtitle and caption to pass in ggplot
   title = "California Population Trends"
   subtitle = "Projections calculated by the California Department of Finance, incorporating the latest historical population, birth, death, and migration data available as of July 1, 2022."
-  caption = "Source: State of California, Department of Finance. Demographic Research Unit. State and County Population Projections 2020-2060. Sacramento, California. July 2023"
+  caption = "Source: State of California, Department of Finance. Demographic Research Unit. Sacramento, California. July 2023"
   
   # Automatically adds 1 unit to upper or lower slider when they are equal
   # Prevents slider inputs getting trapped behind one another
